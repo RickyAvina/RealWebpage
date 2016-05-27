@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Page!!</title>
+<link rel="stylesheet" type="text/css" href="page2.css">
+
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/scrollingOpacity.js"></script>
+
+<script src = "math.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+<embed src="motherland.mp3" autostart="true" loop="true" width="0" height="0" style="background-image:background-image: url('marble.jpg');">
+</embed>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your numbers, seperated by commas", "Ex: 1, 2, 3, 4");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
+</script>
+</head>
+
+<body>
+	
+<button id = "but1" onclick = "getVals()">Get Vals</button>
+<button id = "but2" onclick = "getMedian()">Get Median</button>
+<button id = "but3" onclick = "getMode()">Get Mode</button>
+<button id = "but4" onclick = "getMean()">Get Mean</button>
+
+  <div id="nav">
+      <div id="nav_wrapper">
+          <ul>
+            <li><a href="page2.html">Homepage</a>
+            </li>
+            <li> <a href="jspage.html">Javascript Page</a>
+            </li>
+            <li> <a href="#">Social Media</a>
+                <ul>
+                    <li><a href="https://www.instagram.com/riqayy/">Instagram</a>
+                    </li>
+                    <li><a href="https://twitter.com/TheRickyAvina">Twitter</a>
+                    </li>
+                    <li><a href="#">Snap: RickyAvina</a>
+                      </li>
+                  </ul>
+              </li>
+              <li> <a href="#">dropdown</a>
+
+                  <ul>
+                      <li><a href="#">Give</a>
+                      </li>
+                      <li><a href="#">Me</a>
+                      </li>
+                      <li><a href="#">An A</a>
+                      </li>
+                  </ul>
+              </li>
+              <li> <a href="page3.html">page 3</a>
+              </li>
+			  <li> <a href="page4.html">page 4</a>
+              </li>
+          </ul>
+      </div>
+      <!-- Nav wrapper end -->
+  </div>
+  <!-- Nav end -->
+
+  <div id = "full">
+  <div class="section" id="s1">
+    <div class="content" id="c1"><h1 id = "s">Input your numbers here </h1>
+      <br/><br/>
+</div>
+</div>
+<div class="section" id="s2">
+    <div class="content" id="c2"><h1>We do not forget</h1></div>
+</div>
+<div class="section" id="s3">
+    <div class="content" id="c3"><h1>We do not forgive</h1></div>
+</div>
+<div class="section" id="s4">
+    <div class="content" id="c4"><h1>We are shibe</h1></div>
+</div>
+<div class="section" id="s5">
+    <div class="content" id="c5"><h1>Woof</h1></div>
+</div>
+</div>
+</body>
+</html>

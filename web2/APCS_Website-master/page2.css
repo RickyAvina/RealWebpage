@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    background-color: #000;
+}
+#nav {
+    background-color: #000;
+		z-index: 3;
+}
+
+#changeMe {
+    color: white;
+}
+
+#demo1{
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+
+#full{
+  z-index: -1;
+}
+
+.section {
+    position:relative;
+    z-index: -1;
+    height:1200px;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.content {
+    position:relative;
+    background-color:#000;
+    height:50%;    /* this height difference allows the bg to show through */
+	  opacity: 0.87;
+}
+
+h1 {
+	font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	opacity: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section#s1 {
+    background-image: url("puppers/doggo1.jpg");
+}
+.section#s2 {
+    background-image: url("puppers/doggo2.jpg");
+}
+.section#s3 {
+    background-image: url("puppers/doggo3.jpg");
+}
+.section#s4 {
+    background-image: url("puppers/doggo3.jpg");
+}
+.section#s5 {
+    background-image: url("puppers/doggo4.jpg");
+}
+
+.section#g1 {
+    background-image: url(“http://science-all.com/images/wallpapers/nature-hd-images/nature-hd-images-5.jpg”);
+}
+.section#g2 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Nature-Wallpaper-HD-Desktop-free.jpg”);
+}
+.section#g3 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Beautiful-Red-Leaves-Photo-Nature-Wallpaper-HD-Free.jpg”);
+}
+.section#g4 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Desktop-nature-wallpaper-gallery.jpg”);
+}
+.section#g5 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/desktop-nature-wallpaper-high-quality-wallpaper.jpg”);
+}
+
+.section#d1 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Desktop-Wallpaper-For-Nature.jpg”);
+}
+.section#d2 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Natural-Desktop-Background-wallpaper.jpg”);
+}
+.section#d3 {
+    background-image: url(“http://www.pixelstalk.net/wp-content/uploads/2016/03/Free-download-Nature-wallpaper-HD.jpg”);
+}
+.section#d4 {
+    background-image: url(“Nature/Nature4.png”);
+}
+.section#d5 {
+    background-image: url(“Nature/Nature5.png”);
+}
+
+
+but1{
+  margin:auto;
+  z-index:1;
+}
